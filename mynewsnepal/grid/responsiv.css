@@ -1,0 +1,32 @@
+/* @media(max-width: 480px)
+{
+    body { background: green;}
+}
+@media( min-width: 481px) and ( max-width: 768px)
+{
+    body{ background: pink;}
+}
+@media ( min-width: 769px) and (max-width:992px)
+{
+    body { background: skyblue;}
+}
+@media (min-width:992px)
+{
+    body { background: orange;}
+} */
+
+.g
+{
+    background: green;
+    padding: 30px;
+}
+.grid{ margin: 20px;}
+@media(min-width: 480px) and (max-width: 768px)
+{
+    .box{ display: grid; gap: 10px; grid-template-columns: auto auto auto; margin: 10px 0;
+    }
+}
+@media(min-width:768px)
+{
+.grid{display: grid; grid-template-columns: auto auto auto ; gap: 20px;}
+}

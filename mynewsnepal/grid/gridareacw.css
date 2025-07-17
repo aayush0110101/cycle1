@@ -1,0 +1,18 @@
+.box
+{
+border: 2px solid #000;
+padding: 40px;
+}
+
+.a{ grid-area: ram ;}
+.b{ grid-area: b;}
+.c{ grid-area: c;}
+.d{ grid-area: d;}
+.e{ grid-area: e;}
+.f{ grid-area: f;}
+
+.grid
+{
+    display: grid;
+    grid-template-areas: 'ram ram ram ram ram ram' '. b b b c .' '. d d e e .' 'f f f f f f';
+}
